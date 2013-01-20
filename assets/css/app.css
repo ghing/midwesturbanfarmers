@@ -1,0 +1,127 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+/* Colors */
+/* ==========================================================================
+   Base
+   ========================================================================== */
+body {
+  color: #003805;
+}
+a {
+  color: #663d07;
+}
+/* =============================================================================
+   Header
+   ========================================================================== */
+/* Fixed Topbar Navigation */
+body.top-navbar {
+  padding-top: 60px;
+}
+body.top-navbar.home {
+  padding-top: 0;
+}
+body.top-navbar.home .navbar {
+  margin-bottom: 0;
+}
+body.top-navbar .navbar {
+  color: #fff;
+  text-shadow: none;
+}
+body.top-navbar .navbar a {
+  color: #fff;
+  text-shadow: none;
+}
+body.top-navbar .navbar a:hover {
+  color: #663d07;
+}
+body.top-navbar .navbar-inner {
+  background-color: #4aabb3;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+}
+body.admin-bar .navbar-fixed-top {
+  top: 28px;
+}
+/* Large image banner on homepage */
+.home #banner {
+  min-height: 615px;
+}
+.home #banner h1 {
+  color: #fff;
+}
+.home #banner .row {
+  margin-left: 20px;
+}
+.home #banner .row .row {
+  margin-left: 0;
+}
+.home #banner .content {
+  color: #003805;
+}
+.home #banner .content ul {
+  margin: 0;
+  list-style: none;
+}
+.home #banner .content ul > li {
+  padding: 1em;
+  background-color: #fff;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+/* ==========================================================================
+   Content
+   ========================================================================== */
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+footer {
+  width: 100%;
+  background-color: #003805;
+  color: #fff;
+}
+footer ul.contact-info {
+  margin-left: 0;
+}
+footer ul.contact-info li {
+  list-style-type: none;
+}
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+figure.alignnone {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media (max-width: 979px) {
+  /* Fix top padding when using the responsive grid with the fixed topbar */
+  body.top-navbar {
+    padding-top: 0;
+  }
+}
