@@ -40,6 +40,7 @@ body.top-navbar .navbar-inner {
   background-image: none;
   border: none;
   border-radius: 0;
+  filter: none;
 }
 body.admin-bar .navbar-fixed-top {
   top: 28px;
@@ -89,7 +90,7 @@ body.admin-bar .navbar-fixed-top {
    ========================================================================== */
 footer {
   width: 100%;
-  background-color: #003805;
+  background-color: #663d07;
   color: #fff;
 }
 footer ul.contact-info {
