@@ -104,6 +104,9 @@ body > footer {
   background-color: #663d07;
   color: #fff;
 }
+body > footer a {
+  color: #fff;
+}
 body > footer ul.contact-info {
   margin-left: 0;
 }
