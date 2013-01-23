@@ -95,16 +95,29 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
   }
 
   .content {
+
+    .boxed() {
+      padding: 1em;
+      background-color: #fff;
+      #muf > .lead();
+    }
+
     color: @dark-green;
+
+    a {
+      color: @brown;
+    }
+
+    p {
+      .boxed;
+    }
 
     ul {
       margin: 0;
       list-style: none;
 
       &> li {
-        padding: 1em;
-        background-color: #fff;
-        #muf > .lead();
+        .boxed;
       }
     }
 
