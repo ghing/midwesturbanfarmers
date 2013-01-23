@@ -99,15 +99,15 @@ body.admin-bar .navbar-fixed-top {
 /* ==========================================================================
    Footer
    ========================================================================== */
-footer {
+body > footer {
   width: 100%;
   background-color: #663d07;
   color: #fff;
 }
-footer ul.contact-info {
+body > footer ul.contact-info {
   margin-left: 0;
 }
-footer ul.contact-info li {
+body > footer ul.contact-info li {
   list-style-type: none;
 }
 /* ==========================================================================

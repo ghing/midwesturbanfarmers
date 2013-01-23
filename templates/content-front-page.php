@@ -1,6 +1,6 @@
 <?php $front_page_query = new WP_Query( 'post_type=post' ); ?>
 <?php if ($front_page_query->have_posts()): ?>
-<h2>News</h2>
+<h2 id="news">News</h2>
 <?php endif; ?>
 <?php while ($front_page_query->have_posts()) : $front_page_query->the_post(); ?>
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
