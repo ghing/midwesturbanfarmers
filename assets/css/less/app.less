@@ -1,5 +1,6 @@
 // Import the bootstrap variables
 @import "variables.less";
+@import "mixins.less";
 
 /* ==========================================================================
    Variables
@@ -24,6 +25,10 @@ body {
 
 a {
   color: @brown;
+}
+
+.btn-bwn {
+  .buttonBackground(@brown, spin(@brown, 20%));
 }
 
 #muf {
@@ -95,7 +100,6 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
   }
 
   .content {
-
     .boxed() {
       padding: 1em;
       background-color: #fff;
@@ -106,10 +110,18 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 
     a {
       color: @brown;
+
+      &.btn-bwn {
+        color: #fff;
+      }
     }
 
     p {
       .boxed;
+    }
+
+    .btn {
+      margin-top: 0;
     }
 
     ul {
