@@ -22,6 +22,7 @@ $header_background_image_url = wp_get_attachment_image_src(get_post_thumbnail_id
           endif;
         ?>
       </nav>
+			<?php get_template_part('templates/navbar-searchform'); ?>
     </div>
   </div>
   <div class="container">
