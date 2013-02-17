@@ -122,14 +122,10 @@ body.admin-bar .navbar-fixed-top {
 .home #banner .content a {
   color: #663d07;
 }
-<<<<<<< HEAD
-.home #banner .content .boxed {
-=======
 .home #banner .content a.btn-bwn {
   color: #fff;
 }
-.home #banner .content p {
->>>>>>> 42cd291331392d1ce309ac1514c046ac4ff74ad5
+.home #banner .content .boxed {
   padding: 1em;
   background-color: #fff;
   margin-bottom: 20px;
@@ -137,14 +133,10 @@ body.admin-bar .navbar-fixed-top {
   font-weight: 200;
   line-height: 30px;
 }
-<<<<<<< HEAD
-.home #banner .content ul.cycle {
-=======
 .home #banner .content .btn {
   margin-top: 0;
 }
-.home #banner .content ul {
->>>>>>> 42cd291331392d1ce309ac1514c046ac4ff74ad5
+.home #banner .content ul.cycle {
   margin: 0;
   list-style: none;
 }
