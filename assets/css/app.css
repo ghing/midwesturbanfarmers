@@ -136,6 +136,9 @@ body.admin-bar .navbar-fixed-top {
 .home #banner .content .btn {
   margin-top: 0;
 }
+.home #banner .content li {
+  margin-bottom: 0.5em;
+}
 .home #banner .content ul.cycle {
   margin: 0;
   list-style: none;
@@ -147,6 +150,7 @@ body.admin-bar .navbar-fixed-top {
   font-size: 21px;
   font-weight: 200;
   line-height: 30px;
+  margin-bottom: 0;
 }
 /* ==========================================================================
    Content
