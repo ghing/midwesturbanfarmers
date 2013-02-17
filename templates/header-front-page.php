@@ -1,5 +1,8 @@
 <?php
 $header_background_image_url = wp_get_attachment_image_src(get_post_thumbnail_id(), 'front-page-huge');
+// Get custom fields
+$post_custom = get_post_custom();
+$container_class = isset($post_custom['container_class']) ? $post_custom['container_class'][0] : "";
 ?>
 <header id="banner" class="navbar" role="banner" style="background-image: url(<?php echo $header_background_image_url[0]; ?>)">
   <div class="navbar-inner">
@@ -30,7 +33,7 @@ $header_background_image_url = wp_get_attachment_image_src(get_post_thumbnail_id
       <div class="span12 content">
         <h1><?php echo get_the_title(); ?></h1>
         <div class="row">
-            <div class="span6">
+            <div class="span6 <?php echo $container_class; ?>">
               <?php get_template_part('templates/content', 'page'); ?>
             </div>
         </div>
