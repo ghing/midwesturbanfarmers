@@ -20,7 +20,7 @@
   $(function() {
     // TODO: Consider manual slideshow.
     // See http://jquery.malsup.com/cycle/nowrap.html
-    $( '#banner .content ul' ).cycle({
+    $( '#banner .content ul.cycle' ).cycle({
       timeout: 6000
     });
   });

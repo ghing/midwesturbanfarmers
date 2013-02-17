@@ -96,7 +96,7 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 
   .content {
 
-    .boxed() {
+    .boxed-mixin() {
       padding: 1em;
       background-color: #fff;
       #muf > .lead();
@@ -108,16 +108,16 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
       color: @brown;
     }
 
-    p {
-      .boxed;
+    .boxed {
+      .boxed-mixin;
     }
 
-    ul {
+    ul.cycle {
       margin: 0;
       list-style: none;
 
       &> li {
-        .boxed;
+        .boxed-mixin;
       }
     }
 

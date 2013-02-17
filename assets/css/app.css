@@ -64,7 +64,7 @@ body.admin-bar .navbar-fixed-top {
 .home #banner .content a {
   color: #663d07;
 }
-.home #banner .content p {
+.home #banner .content .boxed {
   padding: 1em;
   background-color: #fff;
   margin-bottom: 20px;
@@ -72,11 +72,11 @@ body.admin-bar .navbar-fixed-top {
   font-weight: 200;
   line-height: 30px;
 }
-.home #banner .content ul {
+.home #banner .content ul.cycle {
   margin: 0;
   list-style: none;
 }
-.home #banner .content ul > li {
+.home #banner .content ul.cycle > li {
   padding: 1em;
   background-color: #fff;
   margin-bottom: 20px;
