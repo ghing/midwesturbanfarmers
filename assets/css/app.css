@@ -1,3 +1,30 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 /* ==========================================================================
    Variables
    ========================================================================== */
@@ -10,6 +37,37 @@ body {
 }
 a {
   color: #663d07;
+}
+.btn-bwn {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #664a07;
+  background-image: -moz-linear-gradient(top, #663d07, #665d07);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#663d07), to(#665d07));
+  background-image: -webkit-linear-gradient(top, #663d07, #665d07);
+  background-image: -o-linear-gradient(top, #663d07, #665d07);
+  background-image: linear-gradient(to bottom, #663d07, #665d07);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff663d07', endColorstr='#ff665d07', GradientType=0);
+  border-color: #665d07 #665d07 #1e1c02;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #665d07;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-bwn:hover,
+.btn-bwn:active,
+.btn-bwn.active,
+.btn-bwn.disabled,
+.btn-bwn[disabled] {
+  color: #ffffff;
+  background-color: #665d07;
+  *background-color: #4e4705;
+}
+.btn-bwn:active,
+.btn-bwn.active {
+  background-color: #363104 \9;
 }
 /* =============================================================================
    Header
@@ -64,7 +122,14 @@ body.admin-bar .navbar-fixed-top {
 .home #banner .content a {
   color: #663d07;
 }
+<<<<<<< HEAD
 .home #banner .content .boxed {
+=======
+.home #banner .content a.btn-bwn {
+  color: #fff;
+}
+.home #banner .content p {
+>>>>>>> 42cd291331392d1ce309ac1514c046ac4ff74ad5
   padding: 1em;
   background-color: #fff;
   margin-bottom: 20px;
@@ -72,7 +137,14 @@ body.admin-bar .navbar-fixed-top {
   font-weight: 200;
   line-height: 30px;
 }
+<<<<<<< HEAD
 .home #banner .content ul.cycle {
+=======
+.home #banner .content .btn {
+  margin-top: 0;
+}
+.home #banner .content ul {
+>>>>>>> 42cd291331392d1ce309ac1514c046ac4ff74ad5
   margin: 0;
   list-style: none;
 }
