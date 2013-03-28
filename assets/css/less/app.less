@@ -103,10 +103,17 @@ body.top-navbar {
 
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
-.dropdown-submenu:hover > a {
+.dropdown-submenu:hover > a,
+.dropdown-menu .active > a:hover {
   color: #fff;
   background-image: none;
   background-color: @brown;
+}
+
+.dropdown-menu .active > a {
+  color: @brown;
+  background-image: none;
+  background-color: #fff;
 }
 
 body.admin-bar .navbar-fixed-top { top: 28px; }
