@@ -60,17 +60,32 @@ body.top-navbar {
   }
 
   .navbar {
-    color: #fff;
-    text-shadow: none;
-
-    a {
+    .brand {
       color: #fff;
       text-shadow: none;
+    }
 
-      &:hover {
-        color: @brown;
+    .nav {
+      &> li > a { 
+        color: #fff;
+        text-shadow: none;
+
+        &:hover {
+          color: @brown;
+        }
+      }
+
+      .dropdown-toggle .caret {
+        border-bottom-color: #fff;
+        border-top-color: #fff; 
+      }
+
+      .dropdown-toggle:hover .caret {
+        border-bottom-color: @brown;
+        border-top-color: @brown; 
       }
     }
+
   }
 
   .navbar-inner {
@@ -81,6 +96,19 @@ body.top-navbar {
     filter: none;
   }
 }
+
+.dropdown-menu li > a {
+  color: @brown;
+}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  color: #fff;
+  background-image: none;
+  background-color: @brown;
+}
+
 body.admin-bar .navbar-fixed-top { top: 28px; }
 
 /* Large image banner on homepage */
