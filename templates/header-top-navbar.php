@@ -19,7 +19,6 @@
           endif;
         ?>
       </nav>
-			<?php get_template_part('templates/navbar-searchform'); ?>
     </div>
   </div>
 </header>
